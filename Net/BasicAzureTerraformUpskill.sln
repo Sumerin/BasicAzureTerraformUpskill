@@ -1,7 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples", "Examples\Examples.csproj", "{099C9EFB-C3EE-4B92-8F1C-D6D471BCA717}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S_RiskAssessment", "S_RiskAssessment\S_RiskAssessment.csproj", "{0D43E13F-71BA-4301-9612-BBBB1D577295}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S_RiskAssessment.Tests", "S_RiskAssessment.Tests\S_RiskAssessment.Tests.csproj", "{65D28821-3A6E-4EB6-95AF-D4D20E340A9B}"
@@ -15,16 +13,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{593309E7-C9AB-48DF-A3BC-DAF21A64E60A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S_RodoAssessment", "S_RodoAssessment\S_RodoAssessment.csproj", "{FE2EE204-244A-44D7-B86E-7D0B81DCCB4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S_RodoAssessment.Tests", "S_RodoAssessment.Tests\S_RodoAssessment.Tests.csproj", "{64DEA223-F2B0-400E-B553-239DF210E0E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{099C9EFB-C3EE-4B92-8F1C-D6D471BCA717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{099C9EFB-C3EE-4B92-8F1C-D6D471BCA717}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{099C9EFB-C3EE-4B92-8F1C-D6D471BCA717}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{099C9EFB-C3EE-4B92-8F1C-D6D471BCA717}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0D43E13F-71BA-4301-9612-BBBB1D577295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0D43E13F-71BA-4301-9612-BBBB1D577295}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D43E13F-71BA-4301-9612-BBBB1D577295}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,9 +31,19 @@ Global
 		{65D28821-3A6E-4EB6-95AF-D4D20E340A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65D28821-3A6E-4EB6-95AF-D4D20E340A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65D28821-3A6E-4EB6-95AF-D4D20E340A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE2EE204-244A-44D7-B86E-7D0B81DCCB4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2EE204-244A-44D7-B86E-7D0B81DCCB4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2EE204-244A-44D7-B86E-7D0B81DCCB4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2EE204-244A-44D7-B86E-7D0B81DCCB4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64DEA223-F2B0-400E-B553-239DF210E0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DEA223-F2B0-400E-B553-239DF210E0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DEA223-F2B0-400E-B553-239DF210E0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64DEA223-F2B0-400E-B553-239DF210E0E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0D43E13F-71BA-4301-9612-BBBB1D577295} = {B1FFAD73-2302-495D-B7CB-C56F98A5B7DB}
 		{65D28821-3A6E-4EB6-95AF-D4D20E340A9B} = {593309E7-C9AB-48DF-A3BC-DAF21A64E60A}
+		{FE2EE204-244A-44D7-B86E-7D0B81DCCB4A} = {B1FFAD73-2302-495D-B7CB-C56F98A5B7DB}
+		{64DEA223-F2B0-400E-B553-239DF210E0E6} = {593309E7-C9AB-48DF-A3BC-DAF21A64E60A}
 	EndGlobalSection
 EndGlobal
